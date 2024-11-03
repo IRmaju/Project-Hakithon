@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Static-Resume</title>
+  </head>
+  <body>
+    <div id="staic-resume-div">
+      <main>
+        <header>
+          <div>
+            <h2 id="user-name">WAJEEHA Qadir Abbasi</h2>
+            <hr />
+            <h3 id="put-occupation">Full-Stack Developer</h3>
+          </div>
+          <nav>
+            <a id="put-LinkedIn" target="_blank">LinkedIn</a>
+            <a id="put-github" target="_blank">GitHub</a>
+            <span id="put-usernumber">04263650092</span>
+            <span id="put-useremail">ABBASI22@gmail.com</span>
+          </nav>
+        </header>
+        <section id="maincontent">
+          <div id="left-section">
+            <section>
+              <h3><li>Personal Details</li></h3>
+              <p>
+                <strong>Name : </strong><span id="put-name">WAJEEHA QADIR ABBASI</span>
+              </p>
+              <p>
+                <strong>F/Name : </strong
+                ><span id="put-f/name">GHULAM QADIR ABBASI</span>
+              </p>
+              <p>
+                <strong>Nationality : </strong
+                ><span id="put-nationality">Pakistani</span>
+              </p>
+              <p>
+                <strong>Adress : </strong
+                ><span id="put-adress">Karachi Sindh,Pakistan</span>
+              </p>
+            </section>
+            <hr />
+            <section>
+              <h3><li>About Me</li></h3>
+              <p id="put-about">
+                I am a flexible and experienced web Developer with excellent time management skills.
+                I am a good communicator with proven inter personal skills and
+                 am used to working in a team whilst also being capable of using own initiative.
+                  I am skilled In dealing with problems in a resourceful manner and negotiating to 
+                  achieve beneficial agreement.
+                I am always enthusiastic to learn and undertake new challenges.
+              
+              
+                
+              
+    
+              </p>
+            </section>
+            <hr />
+            <section>
+              <h3><li>Work Experiences</li></h3>
+              <p id="put-experience">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore
+                magni distinctio illo dolor tempore. Sit non totam animi
+                voluptatum debitis fugiat dicta quos ad deleniti minus,
+                reiciendis quo delectus repudiandae.
+              </p>
+            </section>
+            <hr />
+            <section>
+              <h3><li>Hobbies</li></h3>
+              <ul id="hobbyUI">
+                <li>coding</li>
+                <li>Reading</li>
+                <li>self-Learning</li>
+              </ul>
+            </section>
+            <hr />
+          </div>
+          <div id="right-section">
+            <section>
+              <fieldset>
+                <legend>Education</legend>
+                <span id="educationUI">
+                  <li>BSC</li>
+                  <li>intermidiate</li>
+                  <li>French Language </li>
+                </span>
+              </fieldset>
+            </section>
+            <section>
+              <fieldset>
+                <legend>Skills</legend>
+                <span id="skillsUI">
+                  <li>Typescript Expert</li>
+                  <li>Tailwind CSS</li>
+                  <li>Next Js</li>
+                  <li>python</li>
+                  <li>HTML</li>
+                </span>
+              </fieldset>
+            </section>
+            <section>
+              <fieldset>
+                <legend>Projects</legend>
+                <span id="project-UI">
+                  <li>GUESS NUMBER GAME OF TYPSCRIPT</li>
+                  <li>Blog Web Application</li>
+                  <li>FACEBOOK PIZZA PAGE</li>
+                  <li>ATM MACHINE PROJECT</li>
+                </span>
+              </fieldset>
+            </section>
+          </div>
+        </section>
+      </main>
+      <section>
+        <button id="generate-resume-button">Generate Resume</button>
+      </section>
+    </div>
+
+    <section id="form-section" style="display: none">
+      <h2>Fill Out These Fields TO Generate Custom Resume</h2>
+      <form id="form">
+        <section>
+          <div>
+            <label for="name">Name :</label>
+            <input
+              id="username"
+              type="text"
+              placeholder="Enter Your Name"
+              required
+            />
+            <br />
+          </div>
+          <div>
+            <label for="Father'sname">Father Name :</label>
+            <input
+              id="Father'sname"
+              type="text"
+              placeholder="Enter Your Father's  Name"
+              required
+            />
+            <br />
+          </div>
+          <div>
+            <label for="occupation">Occupation : </label>
+            <input
+              id="occupation"
+              type="text"
+              placeholder="Enter Your Occupation"
+            />
+            <br />
+          </div>
+          <div>
+            <label for="nationality">Nationality : </label>
+            <input
+              id="nationality"
+              type="text"
+              placeholder="Enter Your Nationality"
+            />
+            <br />
+          </div>
+          <div>
+            <label for="adress">Adress : </label>
+            <input id="adress" type="text" placeholder="Enter Your Adress" />
+            <br />
+          </div>
+          <div>
+            <label for="number">Phone No : </label>
+            <input
+              id="user-number"
+              type="text"
+              placeholder="Enter Your Phone Number"
+            />
+          </div>
+          <div>
+            <label for="email">Email : </label>
+            <input
+              id="user-email"
+              type="email"
+              placeholder="Enter Your Email"
+            />
+          </div>
+          <div>
+            <label for="LinkedIn">LinkedIn : </label>
+            <input
+              id="linkedIn"
+              type="text"
+              placeholder="Enetr LinkedIn account"
+            />
+          </div>
+          <div>
+            <label for="gitHub">GitHub : </label>
+            <input id="gitHub" type="text" placeholder="Enetr GitHub account" />
+          </div>
+        </section>
+        <section>
+          <div>
+            <label for="Hobbies">Hobbies (Seperate using ",") :</label>
+            <input
+              id="Hobbies"
+              type="text"
+              placeholder="Enter Your Hobbies"
+            /><br />
+          </div>
+          <div>
+            <label for="Eduation">Education(Seperate using ",") :</label>
+            <input
+              id="educatio-data"
+              type="text"
+              placeholder="Enter Your Eduation"
+            /><br />
+          </div>
+          <div>
+            <label for="Skills">Skills (Seperate using " , ") : </label>
+            <input
+              id="skill"
+              type="text"
+              placeholder="Enter Your Skills"
+            /><br />
+          </div>
+          <div>
+            <label for="projects">Projects (Seperate using " , ") : </label>
+            <input
+              id="project"
+              type="text"
+              placeholder="Enter Your Projects"
+            /><br />
+          </div>
+          <div>
+            <label for="AboutMe">About : </label>
+            <textarea
+              id="AboutMe"
+              rows="5"
+              placeholder="Write Something About You"
+            ></textarea>
+            <br />
+          </div>
+          <div>
+            <label for="workexperiences">Work Experiences : </label>
+            <textarea
+              id="workexperienceses"
+              rows="5"
+              placeholder="Please  Write About Your Previous Work Experiences"
+            ></textarea>
+            <br />
+          </div>
+        </section>
+      </form>
+      <div id="formbutton-div">
+        <button id="form-submit-button" type="submit">Submit</button>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
